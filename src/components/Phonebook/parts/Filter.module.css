@@ -1,0 +1,21 @@
+.label__text {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.label__input {
+
+   box-sizing: border-box;
+   border-radius: 4px;
+   height: 30px;
+   cursor: pointer;
+   -webkit-transition-property: border;
+   transition-property: border;
+   -webkit-transition-duration: 300ms;
+   transition-duration: 300ms;
+   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.label__input:hover {
+   border: solid 2px #668dcd;
+}
